@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Uma Aventura Winx</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Cenario-passo0-Alfea Escola para Fadas.jpg" alt="">
+            <p>Você é uma nova estudante de Alfea, meu parabéns! Essa é a sua escola dos sonhos, você mal espera por que tipo de magia vai aprender aqui. Após algumas aulas, seu professor aplica uma atividade prática, ele te dar duas opçôes. Capturar feras mágicas na floresta e soltá-las longe dali. Ou, afastar um gigante que está sujando o Lago Rocha da Luz.</p>
+            <button class="btn-proximo" data-proximo="1">Lago Rocha da Luz</button>
+            <button class="btn-proximo" data-proximo="2">Floresta</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/Cenario-passo1-Lago Rocha da Luz.webp">
+            <p>Indo para o lago, você fica surpresa ao ver que o gigante é realmente gigante. Junto com as suas colegas de turma, vocês conseguem expulsar o gigante, entretanto, todas escutam gritos e uma explosão vindo da floresta. Ao mesmo tempo disso, você e outras estudantes veem um brilho estranho vindo do fundo do lago. Agora vocês estão se separando em dois grupos, para qual você vai?</p>
+            <button class="btn-proximo" data-proximo="3">Grupo da Floresta</button>
+            <button class="btn-proximo" data-proximo="4">Grupo da Lagoa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/Cenario-passo2-Floresta.webp">
+            <p>Na floresta, você e todas suas colegas estão realizando a tarefa de maneira eficaz. Porém, uma estudante foi levada por 5 lobos celestes para uma caverna, segundos depois, uma explosão ocorre ali perto. Suas colegas sugerem se separar em dois grupos, perguntando para qual você irá.</p>
+            <button class="btn-proximo" data-proximo="5">Grupo de Resgate</button>
+            <button class="btn-proximo" data-proximo="6">Grupo de Investigação</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/Vilãs-As Trix-Vilãs de Alfea.webp">
+            <p>Chegando na explosão, vocês se encontram com as terríveis Trix, bruxas famosas e poderosas por toda Magix. Você ver que algumas fadas da sua sala que escolherem capturar os animais estavam ali, mas das poucas ainda de pé e algumas já caidas, não estava o grupo inteiro, te questionando onde estavam as outras. Uma intensa batalha de bruxas contra fadas se inicia, mas apesar do incrivél poder das Trix, elas começam a perder. Stormy lança uma rajada de raios em sua direção, e como contramedida ao seu ataque, você usa:</p>
+            <button class="btn-proximo" data-proximo="7">Globo de Espelhos</button>
+            <button class="btn-proximo" data-proximo="8">Corrente de Cipós</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Cenario-passo4-Portal do Oceano Infinito.webp">
+            <p>Entrando dentro da água, todo mundo avista um portal se abrindo, e logo na sua entrada, um Kraken. Uma das estudantes ver vários tritões mutantes sequestando Selkies e levando para dentro do portal. De novo, o grupo tem que se separar, mas dessa vez entre aquelas que irão lutar contra o Kraken, e aquelas que resgatarão as Selkies.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar contra o Kraken</button>
+            <button class="btn-proximo" data-proximo="10">Resgatar as Selkies</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Adentrando a caverna, no que parecia ser o final do percuso, vocês encontram sua colega e derrotam os lobos celestes. Enquanto as outras curam os ferimentos da fada raptada, você repara uma brecha na parede, chegando mais perto da abertura, você ver uma cidade subterrânea que, para sua surpresa, está sendo atacada. .</p>
+            <button class="btn-proximo" data-proximo="11">Ir para a cidade</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/Vilãs-As Trix-Vilãs de Alfea.webp">
+            <p>Você e outras fadas vão em direção aos gritos, chegando lá, vocês avistam as malignas bruxas Trix, que estão atacando várias criaturas mágicas. As fadas atacam primeiro, contudo, a vantagem eram das bruxas, que derrumaram mais da metade das fadas. Você é uma das poucas de pé e, quando tudo estava parecendo perdido, as outras fadas que foram para a lagoa chegaram ali, conseguindo enfraquecer e quase derrotar as Trix, só não conseguindo fazer isso porque as bruxas fungiram por um portal. Parte das fadas ficam para ajudar aquelas que estavam caidas, outra vai atrás das bruxas. Você se pergunta se é melhor descansar, ou ir atrás das Trix com o que resta de força.</p>
+            <button class="btn-proximo" data-proximo="12">Se Recuperar</button>
+            <button class="btn-proximo" data-proximo="13">Ir Atrás das Trix</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Usando a magia de defesa Globo de Espelhos, você consegue se defender, mas o ataque de Stormy acaba se dividido e atigindo outras fadas. Com essa oportunidade, as Trix abrem um portal e fogem.</p>
+            <button class="btn-proximo" data-proximo="13">Ir Atrás das Trix</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Desviando no último momento e usando a magia Corrente de Cipós, você consegue derrotar uma das bruxa, sobrando duas. As bruxas usam todo o poder que lhe restam, mas não é o suficiente, acabando de serem derrotadas. Vocês e suas colegas voltam para Alfea, levando as feridas e as Trix. Depois de um tempo, as outras fadas que se separaram voltaram com os professores e com outros seres malignos. Apesar de que Lord Darkar e Tritannus conseguissem fugir, todos os outros vilões foram presos. No fim disso tudo, você foi premiada com uma medalha e qualificada a treinamentos especiais para ser tornar uma grande fada no futuro. Fim</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/Cenario-passo4-Portal do Oceano Infinito.webp" alt="">
+            <p>Ao escolher lutar contra o Kraken, você passa muita dificuldade, apesar disso, você não está sozinha. Combinando seus poderes com os poderes de outras fadas, um trabalho em conjunto de água, luz e som, vocês conseguem causar um grande dano no Kraken, assim derrotando-o. Após isso, vocês entram no portal. .</p>
+            <button class="btn-proximo" data-proximo="14">Entrar no Portal</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/Cenario-passo10-Oceano Infinito.webp">
+            <p>Com as outras fadas distraindo o Kraken, vocês conseguem entrar dentro do portal. Ao fazer isso, vocês percebem que estão no Oceano Infinito e descobrem que a pessoa por trás dos sequestos das Selkies é Tritannus. Vocês preparam seus feitiços contra ele, qual vai usar?.</p>
+            <button class="btn-proximo" data-proximo="15">Bumerangue Solar</button>
+            <button class="btn-proximo" data-proximo="16">Ferrão de Netuno</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/Cenario-passo11-Downland(Reino Subterrâneo).webp">
+            <p>Abrindo a abertura num tamanho suficiente para passar, você voa em direção a cidade para salvar os habitantes, as outras estudantes voam logo atrás de você. Vencendo aqueles serem de magia negra, vocês perguntam aos habitantes o que houve ali, eles respondem que esse era o poder de Lord Darkar, que no meio do ataque, roubou um dos fragmentos do Codex. Vocês discurtem o que fazer e concordam enfrentar o Lord Darker.</p>
+            <button class="btn-proximo" data-proximo="17">Ir para a Fortaleza de Darker</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Muito cansada da luta, você decide recuperar as forças. Recebendo o tratamento das outras fadas, suas feridas estão quase totalmente curadas, até que derrepente, uma fada é lançada para fora do portal e ele se fecha aos poucos. Não querendo perder a oportunidade, você entrar no portal sem pensar duas vezes.</p>
+            <button class="btn-proximo" data-proximo="18">Entrar no Portal</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/Cenario-passo13-Terra.webp">
+            <p>Voando para o mesmo portal que as Trix entrou, no outro lado, você percebe que o local onde foi parar era o planeta Terra, e que as bruxas, estavam destruindo um local chamado Love & Pet. Querendo salvar todos ali e também se redimir por antes, você usa seu feitiço Volume Máximo nas Trix, e de maneira eficaz, você derrotar as 3 vilãs. Todos ali te parabenizam por salvar todo mundo, agora você é popular na Terra. Voltando para Alfea, todas as suas colegas e professores estavam te esperando, ao saberem da notícia, você não só ganha um prêmio por tal feito, como também agora participa de algumas aulas avançadas. Você conseguiu fazer algo espetacular no seu primeiro dia, fique orgulhosa. 
+                Fim</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="img/Cenario-passo10-Oceano Infinito.webp">
+            <p>Entrando no portal, o local para onde vocês vão é o Oceano Infinito, não muito longe dali, vocês veem suas colegas lutando contra os tritões mutantes e o líder deles, Tritannus. Ele é muito poderoso, então, para ajudar as outras fadas, você usa o seu:</p>
+            <button class="btn-proximo" data-proximo="19">Redemoinho do Poder</button>
+            <button class="btn-proximo" data-proximo="20">Chute Reluzente</button>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <img src="img/Vilão-Tritannus Vilão do Oceano.jpg">
+            <p>Com o Bumerangue Solar, você causa bastante dano em Tritannus, só que isso não foi o suficiente. Ele usa seu tridente para lançar raios em todo mundo, você consegue desviar dos raios, mas algumas das suas colegas não tiveram a mesma sorte. No calor do momento, você teve uma ideia. </p>
+            <button class="btn-proximo" data-proximo="21">Contar para as outras Fadas</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <img src="img/Vilão-Tritannus Vilão do Oceano.jpg">
+            <p>O Ferrão de Netuno atigi em cheio em Tritannus e, após essa magia, o mesmo não conseguiu mais levantar, perdendo nesse confronto. Ao voltarem para Alfea, todos ficam surpresos com seu feito, assim você ganha vários prêmios e medalhas. Até a família real de Andros ficam surpresos, por isso, o Rei Netuno te faz uma proposta. Ir estudar em Andros para ser tornar uma excelente Fada das Ondas, e obviamente você aceita o convite, mudando e contribuindo muito no rumo de sua jornada. 
+                Fim </p>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <img src="img/Cenario-passo17-Fortaleza de Darkar(Lado de Fora).webp">
+            <p>Chegando perto da fortaleza, algumas fadas repensam se vale a pena lutar contra Lord Darkar, e como forma de encojamento, você faz um discurso inspirador para elas, mesmo também com receio de entrar no castelo. Mas com as suas palavras, as fadas conseguem repor as energias e partem para dentro da fortaleza.</p>
+            <button class="btn-proximo" data-proximo="22">Entrar na Fortaleza</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="img/Cenario-passo13-Terra.webp">
+            <p>Apesar de não estar totalmente recuperada, você vai para o portal e o atravessa. Lá, você ver as outras fadas lutando contra as Trix, ao mesmo tempo, você descobre que está na Terra. Sem pensar muito, você usa sua magia Energia da Mãe Natureza, que acaba de vez com as bruxas. Você passa a ser uma heroína na Terra e em Alfea, reconhecida como uma incrível fada, ganhando vários presentes e um treinamento especial para se tornar uma grande fada no futuro. Fim</p>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <img src="img/Vilão-Tritannus Vilão do Oceano.jpg">
+            <p>Você usa o feitiço Redemoinho do Poder, um intenso poder, contudo, Tritannus se defende dele. As outras fadas também não estavam fazendo muito efeito nele, então você teve uma ideia.</p>
+            <button class="btn-proximo" data-proximo="21">Dizer a ideia para as outras Fadas</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <img src="img/Vilão-Tritannus Vilão do Oceano.jpg">
+            <p>Usando toda sua magia e força, você ataca Tritannus com o Chute Reluzente. Ele defende golpe, mesmo assim, não é o suficiente, desmaiando logo em seguinda. Em Alfea, você é parabenizado por todos, até a família real de Andros te agradece e, incrivelmente, Luna, a rainha de Solária, te parabeniza e oferece a escolha de ser discípula dela. Você aceita, para que no futuro, seja uma das melhores Fadas do Sol Reluzente. 
+                Fim</p>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <img src="img/Vilão-Tritannus Vilão do Oceano.jpg">
+            <p>Você fala para as outras fadas sua ideia, então, vocês montam um plano. Algumas estudantes distraem o Tritannus, enquanto as outras e você, usam seus poderes e fundem eles, que ao atingir o Tritannus, é derrotado na mesma hora. Retornando a Alfea, todas vocês são premiadas com medalhas e recebem aulas avançadas, o que colabora com seu sonho de ser uma grande fada. 
+                Fim</p>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <img src="img/Cenario-passo22-Fortaleza de Darkar Lado de Dentro.webp">
+            <p>No interior do castelo, ele é tão imenso que vocês quase se perdem. Depois de vários minutos e alguns monstros no caminho, finalmente encontram o responsável pelo ataque a cidade. Lord Darkar, sentando em seu trono, com os 4 pedaços do Codex, pronto para dominar toda a Dimensão Mágica. Ele atacar você, mas com o seu:</p>
+            <button class="btn-proximo" data-proximo="23">Ataque Vulcânico</button>
+            <button class="btn-proximo" data-proximo="24">Projeção Virtual</button>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <img src="img/Vilão-Lord Darkar Vilão do Magix.png">
+            <p>A magia Ataque Vulcânico atravessa seu ataque e acerta em cheio nele, bem, isso era o que você tinha pensado, pois, na verdade, aquele Lord Darkar era uma sombra, e o verdadeiro, estava atrás de você. Com a sua magia negra, Darkar corrompe seu coração com a escuridão, transformando você em alguém malévola. Você, agora dominada pelo lado sombrio, se junta ao Lord Darkar e começa a derrumar uma fada por uma, sem que nenhuma conseguisse fugir e pedir ajuda. Darkar te manipula para usar seu poder da Chama do Dragão junto com a escuridão dele, assim, ele entrar no Reino Realix e obtem o poder para ser o mais poderoso em toda a Dimensão Mágica. Fim</p>
+        </div>
+
+        <div class="passo" id="passo-24">
+            <img src="img/Vilão-Lord Darkar Vilão do Magix.png">
+            <p>Para se defender, você utiliza a Projeção Virtual, o que funciona não só bem, como foi a escolha perfeita para se tomar. Lord Darkar que estava no trono, era uma sombra, enquanto o verdadeiro, tentou te atacar por trás, mas falhou por causa da barreira virtual. No reflexo por estar ao lado daquele ser, você cria um novo feitiço contra ele, nomeando-o futuramente de Gênesis Prismática. Darkar sofre um grande dano, e antes que pudesse reagir, você e suas colegas lançam toda a magia que tinham contra ele, derrotando-o de uma vez por todas. Na cansativa volta para a escola, todas as outras alunas da sua sala e professores estavam ali, ao contar o que houve, levaram Lord Darkar imediatamente para a prisão Oblivion e cuidaram das outras fadas e de você, que já tinha desmaiado de exaustão. Depois de acordar, todos comemoram o que você fez e te dão muitos prêmios e presentes, se tornando a aluna mais popular da escola. Após isso, todos os reis te concedem o titulo de Salvadora da Dimensão Mágica, por realizar tal façanha. Agora você está se esforçado muito para ser a melhor fada de todas. Fim</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
